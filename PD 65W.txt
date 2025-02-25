@@ -1,27 +1,24 @@
-
-
-Heat Plate: 6.4 Ohms x 19.2 Volts = 60 Watts
+PD65W Hot Plate: 6.4 Ohms x 19.2 Volts = 60 Watts
 
 L = Left:  When viewing from the front.
 R = Right: When viewing from the front.
 
-
-LRShort = L and R Quick press
-LRLong  = L and R Long press (2 - 5 seconds)
+L-R-Short = L and R Quick press
+L-R-Long  = L and R Long press (2 - 5 seconds)
 
 Home Screen: Default 230C (Stops 4C too Low)
-  RL or RQ: Reflow Temperature Down
-  LL or LQ: Reflow Temperature Up
+  R-L or R-Q: Reflow Temperature Down
+  L-L or L-Q: Reflow Temperature Up
 
-  RQ = 1C Temperature Up (Quick)
-  LQ = 1C Temperature Down
+  R-Q = 1C Temperature Up (Quick)
+  -LQ = 1C Temperature Down
   
-  RL = Run Temperature Up (Hold)
-  LL = Run Temperature Down
+  R-L = Run Temperature Up (Hold)
+  L-L = Run Temperature Down
 
 Top Menu:  LRLong Press
 
-  PID: LRLong Press
+  PID: L-R-Long Press
     KP: 0130 R or L
     KI: 0030 R or L
     KD: 0080 R or L
@@ -31,8 +28,8 @@ Top Menu:  LRLong Press
     Min: 000 R or L (000 to 350)
     Return:
   MODE:
-    Info:  One Temperature
-    Curve: Reflow Curve
+    Info:  One Temperature (Do not leave on set temp for long periods.  No fan to cool electronics in base.  Manual OFF.)
+    Curve: Reflow Curve (Does not follow reflow curve to ambient after reaching max.  Manual OFF.)
     Return:
   LANG:
     CN: Chinese
@@ -46,15 +43,9 @@ Top Menu:  LRLong Press
     HEAT: Temperature up
     C T:  Constant/Continous Temperature (Stops 4C too Low)
 
-
-
-
-
-
-
-
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Vendor provided information:
 
 Description:
 
@@ -66,7 +57,6 @@ Feature:
 4. Centralized preheating of running components to reduce damage to nearby components
 5. USB Type-C interface + PD protocol, can speed up the heating speed
 
-
 parameter:
 
 1. Input interface: Type-C
@@ -76,7 +66,6 @@ parameter:
 4. Shell: high-quality 3D printed shell, no delamination
 5. Product size: length 5.6 cm, width 5.6 cm, height 3.5 cm
 
-
 Instructions:
 
 Double click and press at the same time: heat or stop heating
@@ -84,16 +73,14 @@ Double-click and long press to enter the menu interface or exit
 Double click to confirm
 Note: It is recommended that the temperature not exceed 250°C [482°F]
 
-
 common problem:
 
 Q: How many volts does the power supply need?
-Answer: You need a charger that supports the PD protocol with a voltage of 20V 3.25A.
- In theory, it can support the PD protocol with a voltage of 220V
+A: You need a charger that supports the PD protocol with a voltage of 20V 3.25A.
+   In theory, it can support the PD protocol with a voltage of 220V
 
 Q: Why does heating start from a black screen and restart?
-Answer: This problem triggers the charger protection and needs to be replaced with another charger or data cable, most of which cause the charger model to be recorded
-
+A: This problem triggers the charger protection and needs to be replaced with another charger or data cable, most of which cause the charger model to be recorded
 
 Package Included:
 
