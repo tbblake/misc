@@ -11,7 +11,7 @@ Home Screen: Default 230C (Stops 4C too Low)
   L-L or L-Q: Reflow Temperature Up
 
   R-Q = 1C Temperature Up (Quick)
-  -LQ = 1C Temperature Down
+  L-Q = 1C Temperature Down
   
   R-L = Run Temperature Up (Hold)
   L-L = Run Temperature Down
