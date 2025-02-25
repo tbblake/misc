@@ -16,7 +16,7 @@ Home Screen: Default 230C (Stops 4C too Low)
   R-L = Run Temperature Up (Hold)
   L-L = Run Temperature Down
 
-Top Menu:  LRLong Press
+Top Menu:  L-R-Long Press
 
   PID: L-R-Long Press
     KP: 0130 R or L
