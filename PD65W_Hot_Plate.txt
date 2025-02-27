@@ -18,18 +18,18 @@ Home Screen: Default 230C (Stops 4C too Low)
 
 Top Menu:  LRLong Press
 
-  PID: LRLong Press
+  PID: LRLong Press (Note 1)
     KP: 0130 R or L
     KI: 0030 R or L
     KD: 0080 R or L
     Return:
   TEMP:
-    MAX: 350 R or L (000 to 350)
-    Min: 000 R or L (000 to 350)
+    MAX: 350 R or L (000 to 350) (Note 2)
+    Min: 000 R or L (000 to 350) (Note 2)
     Return:
   MODE:
-    Info:  One Temperature (Do not leave on set temp for long periods.  No fan to cool electronics in base.  Manual OFF.)
-    Curve: Reflow Curve (Does not follow reflow curve to ambient after reaching max.  Manual OFF.)
+    Info:  One Temperature (Note 3)
+    Curve: Reflow Curve    (Note 3 & 4)
     Return:
   LANG:
     CN: Chinese
@@ -43,7 +43,15 @@ Top Menu:  LRLong Press
     HEAT: Temperature up
     C T:  Constant/Continous Temperature (Stops 4C too Low)
 
+NOTES:
+(1) Refer to Wikipedia for information.
+(2) It is recommended that the temperature not exceed 250°C [482°F].
+(3) Do not leave on set temp for long periods.  No fan to cool electronics in base.  Manual OFF.
+(4) Does not follow reflow curve to ambient temperature after reaching max.  Manual OFF.
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Information provided by the manufacturer.
 
 Description:
 
@@ -55,7 +63,7 @@ Feature:
 4. Centralized preheating of running components to reduce damage to nearby components
 5. USB Type-C interface + PD protocol, can speed up the heating speed
 
-parameter:
+Parameter:
 
 1. Input interface: Type-C
 2. Power supply: PD 65w 20v 3.25A (recommended for PD65w)
@@ -71,7 +79,7 @@ Double-click and long press to enter the menu interface or exit
 Double click to confirm
 Note: It is recommended that the temperature not exceed 250°C [482°F]
 
-common problem:
+Common problem:
 
 Q: How many volts does the power supply need?
 A: You need a charger that supports the PD protocol with a voltage of 20V 3.25A.
